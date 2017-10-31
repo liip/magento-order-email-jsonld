@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="email_order_set_template_vars_before">
+        <observer name="add_json_ld_variable_to_order" instance="Liip\OrderEmail\Observer\BeforeOrderEmailSend" />
+    </event>
+</config>

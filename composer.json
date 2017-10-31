@@ -1,0 +1,20 @@
+{
+    "name": "liip-forks/magento-order-email-jsonld",
+    "description": "Add JSON-LD markup to new order email",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "suggest": {
+        "magento/framework": "You must require magento framework in your project."
+    },
+    "type": "magento2-module",
+    "version": "0.0.1-beta",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Liip\\OrderEmail\\": ""
+        }
+    }
+}
