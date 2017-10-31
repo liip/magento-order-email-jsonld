@@ -9,7 +9,7 @@
         "magento/framework": "You must require magento framework in your project."
     },
     "type": "magento2-module",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "autoload": {
         "files": [
             "registration.php"
