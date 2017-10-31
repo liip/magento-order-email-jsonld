@@ -1,6 +1,7 @@
 {
     "name": "liip/magento-order-email-jsonld",
     "description": "Add JSON-LD markup to new order email",
+    "license": "MIT",
     "require": {
         "php": "~7.0.0"
     },
